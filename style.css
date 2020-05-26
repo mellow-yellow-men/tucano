@@ -1,0 +1,43 @@
+nav * {
+    display: inline-block;
+    color: #edf0f1;
+  }
+  
+.nav-list a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+ h1 {
+  background-color: var(--light-color);
+  font-family: 'Chelsea Market', cursive;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px; margin-top: 20px;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: futura;
+    margin: 0;
+    padding: 0;
+  }
+
+  .simian {
+  background-image: url(simian.png);
+  height: 675px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  h3 {
+  margin-left: 50px;
+}
+
+.bigfist {
+    margin-left: 50px; margin-top: 20px; width: 400px; text-align: left;
+}  

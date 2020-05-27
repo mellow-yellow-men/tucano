@@ -1,20 +1,27 @@
 nav * {
     display: inline-block;
-    color: #edf0f1;
+    color: black;
   }
   
+nav{
+   margin-right: 50px; 
+}
+
 .nav-list a {
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0px 10px; margin-top: 50px; 
   }
 
  h1 {
   background-color: var(--light-color);
   font-family: 'Chelsea Market', cursive;
-  margin: 0;
-  padding: 0;
-  margin-left: 50px; margin-top: 20px;
+  padding: 100;
+  margin-left: 50px; margin-top: 50px;
 }
+
+h3 {
+  font-family: montserrat, thin;
+  }
 
 body {
     background-color: var(--light-color);
@@ -29,15 +36,65 @@ body {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%;
-    text-align: center;
+    min-width: 100%;
+    text-align: left;
     position: relative;
+    display: flex; justify-content: space-between;
   }
 
-  h3 {
-  margin-left: 50px;
-}
 
 .bigfist {
     margin-left: 50px; margin-top: 20px; width: 400px; text-align: left;
 }  
+
+.corona {
+  margin-left: 50px; margin-top: 150px; width: 400px; text-align: left;
+}  
+
+.mobile {
+  margin-left: 50px; margin-top: -50px; width: 400px; text-align: left;
+}  
+
+.touch {
+  margin-left: 50px; margin-top: 80px; width: 400px; text-align: left;
+}  
+
+#row1 {
+  display: flex; justify-content: center;
+  
+}  
+
+#row2 {
+  display: flex; justify-content: center;
+  top: 480px; width: 100%;
+} 
+
+.brief {
+text-align: center;
+margin-left: 100px;margin-right: 100px;
+font-family: montserrat, thin; font-size: 3vw;
+} 
+
+footer * {
+  display: inline-block;
+  color: black; text-decoration: none;
+  align: center; margin: 0px 10px;
+}
+
+footer {
+  color: #edf0f1;
+  display: flex; justify-content: center; margin-top: 30px;
+  background-color: black;
+}
+
+span {
+  display: flex; justify-content: center; 
+  margin-top: 50px; color: rgb(156, 150, 148);
+  font-size: 10pt;margin-bottom: 50px;
+}
+
+.box {
+  display: flex; flex-direction: column;
+  position: absolute;
+  top: 350px; width: 100%;
+}
